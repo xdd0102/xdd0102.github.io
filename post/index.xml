@@ -6,19 +6,20 @@
     <description>Recent content in Posts on CodeSpring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Mar 2020 18:35:16 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 17:50:12 +0800</lastBuildDate>
     
 	<atom:link href="https://xdd0102.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Today</title>
-      <link>https://xdd0102.github.io/post/today/</link>
-      <pubDate>Mon, 23 Mar 2020 18:35:16 +0800</pubDate>
+      <title>MySql重置密码</title>
+      <link>https://xdd0102.github.io/post/mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</link>
+      <pubDate>Tue, 31 Mar 2020 17:50:12 +0800</pubDate>
       
-      <guid>https://xdd0102.github.io/post/today/</guid>
-      <description>本项目为 《Spring Boot实战合集》的系列文章，代码已开源，并持续保持更新。如果您觉得该项目对您有用，欢迎点击右上方的 Star按钮支持一波！！
- 个人博客：https://www.codesheep.cn GitHub：https://github.com/hansonwang99  </description>
+      <guid>https://xdd0102.github.io/post/mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</guid>
+      <description>###MySQL数据库忘记密码如何重新设置？
+###前言 当我们忘记了MySQL数据库密码后，该如何重新进行设置？
+###操作步骤 步骤1：cmd打开命名窗口 步骤2：关闭正在运行的MySQL服务(命令：net stop mysql)（如果：此时MySQL正在运行） 步骤3：找到mysqld.exe的安装目录 步骤4：进入mysqld.exe的安装目录，执行命令(&amp;ndash;skip-grant-tables) 步骤5：输入 &amp;ndash;skip-grant-tables 命令后，该窗口就无法操作了，需要另开一个命令窗口 步骤6：另开一个命令窗口，进入mysql.exe目录，直接执行mysql命令，回车，就可以直接登录数据库了 步骤7：输入命令(show databases;[查看到所有的数据库])，然后输入use mysql;[使用mysql数据库，该数据库保存了用户表] 步骤8：输入命令(show tables;[查看所有的表])，找到user表[该表保存了“用户名”和“密码”] 步骤9：此时我们可以来查看用户的信息（select user,host,password from user;） 步骤10：之后我们可以修改用户密码(update user set password = password(&amp;lsquo;123456&amp;rsquo;) where user=&#39;root&amp;rsquo; and host=&#39;localhost&amp;rsquo;;) 步骤11:重启mysql，然后用新的密码登录 以上步骤，仅供参考。</description>
     </item>
     
     <item>

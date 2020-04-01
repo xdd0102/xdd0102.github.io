@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <title>002_个人博客搭建 // CodeSpring</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.68.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="gdh" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://xdd0102.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="002_个人博客搭建"/>
+<meta name="twitter:description" content="基于Hugo搭建的个人博客 第一步：下载Hugo安装包
+在https://github.com/gohugoio/hugo/releases下载相应的windows版本Hugo安装包
+第二步：安装Hugo
+（参考：https://www.cnblogs.com/zoelius/p/11424333.html）
+详细步骤：
+①解压Hugo安装包
+②新建文件夹（比如：D:\hugo_install\bin）
+③将解压的Hugo安装包中的hugo.exe文件放到刚才创建的D:\hugo_install\bin 目录中
+④将D:\hugo_install\bin 添加到环境变量中
+⑤打开 cmd，输入：hugo version 查看已经安装好的hugo版本
+第三步：创建个人博客
+命令：hugo new site 博客名
+第四步：下载并设置博客主题
+下载主题地址：https://themes.gohugo.io/ （我这边选择的是：m10c）
+第五步：在本地启动博客
+命令：hugo server –t m10c &ndash;buildDrafts （注意：都在是博客的根目录下操作）
+第六步：新建文章
+命令：hugo new post/文章名.md （注意：post会自动创建在content目录下，一般文章名用.md格式）
+第七步：书写博客文章
+第八步：展示书写好的博客文章
+第九步：将博客部署到自己的 github上
+第十步：执行命令：
+hugo &ndash;theme=m10c –baseUrl=”https://xdd0102.github.io” –buildDrafts
+第十一步：将public目录的内容传到github上
+第十二步：执行命令：
+git remote add origin https://github.com/xdd0102/xdd0102.github.io.git
+将本地关联到github上
+第十三步：推送到github 的 master上
+命令：git push –u origin master
+温馨提示：进行编辑文章 或 添加新的文章的 执行步骤
+1、hugo new add/aa.md （添加新文章）
+2、hugo server -t m10c –buildDrafts"/>
+
+    <meta property="og:title" content="002_个人博客搭建" />
+<meta property="og:description" content="基于Hugo搭建的个人博客 第一步：下载Hugo安装包
+在https://github.com/gohugoio/hugo/releases下载相应的windows版本Hugo安装包
+第二步：安装Hugo
+（参考：https://www.cnblogs.com/zoelius/p/11424333.html）
+详细步骤：
+①解压Hugo安装包
+②新建文件夹（比如：D:\hugo_install\bin）
+③将解压的Hugo安装包中的hugo.exe文件放到刚才创建的D:\hugo_install\bin 目录中
+④将D:\hugo_install\bin 添加到环境变量中
+⑤打开 cmd，输入：hugo version 查看已经安装好的hugo版本
+第三步：创建个人博客
+命令：hugo new site 博客名
+第四步：下载并设置博客主题
+下载主题地址：https://themes.gohugo.io/ （我这边选择的是：m10c）
+第五步：在本地启动博客
+命令：hugo server –t m10c &ndash;buildDrafts （注意：都在是博客的根目录下操作）
+第六步：新建文章
+命令：hugo new post/文章名.md （注意：post会自动创建在content目录下，一般文章名用.md格式）
+第七步：书写博客文章
+第八步：展示书写好的博客文章
+第九步：将博客部署到自己的 github上
+第十步：执行命令：
+hugo &ndash;theme=m10c –baseUrl=”https://xdd0102.github.io” –buildDrafts
+第十一步：将public目录的内容传到github上
+第十二步：执行命令：
+git remote add origin https://github.com/xdd0102/xdd0102.github.io.git
+将本地关联到github上
+第十三步：推送到github 的 master上
+命令：git push –u origin master
+温馨提示：进行编辑文章 或 添加新的文章的 执行步骤
+1、hugo new add/aa.md （添加新文章）
+2、hugo server -t m10c –buildDrafts" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xdd0102.github.io/post/002_%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
+<meta property="article:published_time" content="2020-04-01T16:29:14+08:00" />
+<meta property="article:modified_time" content="2020-04-01T16:29:14+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://xdd0102.github.io"><img class="app-header-avatar" src="/avatar.jpg" alt="gdh" /></a>
+      <h1>CodeSpring</h1>
+      <p>believe yourself</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://xdd0102.github.io" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">002_个人博客搭建</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 1, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <h4 id="基于hugo搭建的个人博客">基于Hugo搭建的个人博客</h4>
+<p><strong>第一步：下载Hugo安装包</strong></p>
+<p>在https://github.com/gohugoio/hugo/releases下载相应的windows版本Hugo安装包</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/OmVq1gFIObiZCCY30a7VN8tMiORRHVnvKLrLz9eDWVKT6VDUZHiFMVREZE7z8FRix2ast6A10SO6Mz66osyOIA!!/b&amp;bo=PwWZAgAAAAADB4M!&amp;rf=viewer_4&amp;t=5" alt="CodeSpring"></p>
+<p><strong>第二步：安装Hugo</strong></p>
+<p>（参考：https://www.cnblogs.com/zoelius/p/11424333.html）</p>
+<p>详细步骤：</p>
+<p>①解压Hugo安装包</p>
+<p>②新建文件夹（比如：D:\hugo_install\bin）</p>
+<p>③将解压的Hugo安装包中的hugo.exe文件放到刚才创建的D:\hugo_install\bin 目录中</p>
+<p>④将D:\hugo_install\bin 添加到环境变量中</p>
+<p>⑤打开 cmd，输入：hugo version 查看已经安装好的hugo版本</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMR9XwEUNQ8TF5vnLRHy2CqARqxgSGqwxHCLpCjo16U9hZ42VSqOXRjrW*gBtsbVeS5UGLiTgov9qBIvNjeC.8UQ!/b&amp;bo=9wL4AAAAAAADFz8!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMfZYCsTlGfFbj2pRPJFiboATZkC4IJQgsWnjcfhfjJH936T.ZrHOJTnJfrr0nlQUFjkgQp0HVvQdMLJIQj9ST.c!/b&amp;bo=YgGOAAAAAAADF98!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMRWSKrYb*rc2q8OwTHgdlpesy8ONZji8Gbt5BSC*MkemqBHNCO4w7o8adN2ppa6emsTYYflWWQoe9aOQ01zjdhw!/b&amp;bo=3AK4AAAAAAADF1Q!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第三步：创建个人博客</strong></p>
+<p>命令：hugo new site 博客名</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMZ*dAW3IH8JTlnyqmi2Of2X2mvDhMdqjtJ02S8AvjX4noJpqzmr6lY9OP5yfK.kj1e9wPMzaKDsqsRT9ZffaSlQ!/b&amp;bo=pQP0AQAAAAADF2E!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMcDn9LQXScwhkpB1PwGjOU9lS9JwAW7eEYiwhC*thfXU6vxidQYeOzjSUKKTUHI*hws.tJk0WuSPOuPssaXuCMQ!/b&amp;bo=gAMaAQAAAAADF6o!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第四步：下载并设置博客主题</strong></p>
+<p>下载主题地址：https://themes.gohugo.io/   （我这边选择的是：m10c）</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMXrzOtV8I7P7qdixZ1ThPxVsCjZYEB9VuUcwaTgO2GlLUjm4ujyrXBbifugjFvVjS6v5AKp22gv9HWTlZmGZzYU!/b&amp;bo=VAXQAgAAAAADF7E!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMavOLVcCctxXKBt0Id2vCojtTFy2xKmlts5GzPjvsSXpmj2NpejACqYwLrm6bVse8NKkevGth0Yn8VUlgg8oAAs!/b&amp;bo=UQXLAgAAAAADF68!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMaiVV90slFYxcP6sB6wSQb.LOCzNLr6htqVBmQdw7wbJHXnCvfV9zJXx8rx7V6qHZgAi*.4Z.lHOpgK4jDGnEj8!/b&amp;bo=qQP3AQAAAAADF24!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMSmTKHTf87GBZ05Nd6AOwwwYURDFBHPSImtbTgvuKh3N4GYMi8XoKOVS5N5pX4it9TUCm.VNIACBwgp1jearRpo!/b&amp;bo=3wL3AAAAAAADFxg!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第五步：在本地启动博客</strong></p>
+<p>命令：hugo server –t m10c &ndash;buildDrafts   （注意：都在是博客的根目录下操作）</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/OmVq1gFIObiZCCY30a7VN83B5YebmgH7LhLLYue5f1ZJTXuI4cnaCtpkCqazknTAVn6KyNjyLnccUCi.6G8ZWQ!!/b&amp;bo=rAP8AQAAAAADB3A!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMdTaOKgMnvvFdGuZs3MMcY3FKjoxvutmHQTyaXFEus2SheWfUo*Cv0M69rnDHBkQJRAkL9wI3SLt2bTJII5udng!/b&amp;bo=UwXWAgAAAAADF7A!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第六步：新建文章</strong></p>
+<p>命令：hugo new post/文章名.md  （注意：post会自动创建在content目录下，一般文章名用.md格式）</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMXN0O5DSXjVY.crBPUAm5IN*68NDZmGjvYtmLeLUXjojHbhPSYnce1Zt9Rm5DOVMnVYlWjPWcmnfPDQ8uiAL5k4!/b&amp;bo=qAP2AQAAAAADF24!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMc*ktd*LG2l4aXSFOUpy0n57yuJAOmbEV6msvTFrdPMfrAgM9cNLZhivzS2kBkuZkO72UkOzyPULeoTFG5e0y*s!/b&amp;bo=UgUBAQAAAAADF2U!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMS0.9ft6kM1tFD7asFLoovwOW3E8.Bj3coAeJ*fuRf2am5CqaI91cbkKVZF*x2hof2nGwZZdFxsJCqe67Mm5Br0!/b&amp;bo=VgUQAQAAAAADF3A!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第七步：书写博客文章</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMV0qTRJsPlmVs*Zp0*GvF7HwHNPxY.knBiH6trPJ7liz0ZlK92tTut3ud08wQvswk.fVOetQWingOKoe.4Z7gJ0!/b&amp;bo=SAWhAgAAAAADJ.w!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第八步：展示书写好的博客文章</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMZAGSoCby0uOQ82dck1M40lM87ia3yEwHKJ4tAz3vPEH4ERlyYvvT8EJFona*yGIyK4CDxjTTFOVoaWkJMcmb1U!/b&amp;bo=rwP8AQAAAAADF2M!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMWfaciuaN0qv553a6fNlyg.arqHP8lPDi9g6fqxzXYnIWDrH4msYJhxa9ivQWzmkEkPI2m0D5rauIIqTlKQdI.4!/b&amp;bo=UQVTAgAAAAADFzc!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMQuIKjOlnwmDcY0x1.6jzUa0ecYPr55cwvdl7w3rgDFxIACnPSu6JJO5lO9VRSefrDChzrWGlwtKb.bKfq.bBYM!/b&amp;bo=VgXVAgAAAAADJ4Y!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第九步：将博客部署到自己的 github上</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMSE1bzt.7t*CS0m5Ik05w1VHzcEuFXzPb6hp8D4nBrpthGLo4LqXYAAg4Kp0hJJkMwTpFg8k0RkO4ibZHa*ETbY!/b&amp;bo=VQXNAQAAAAADJ54!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/OmVq1gFIObiZCCY30a7VN.DjRB.OTNRPnvntjyWPLCYb71WKCbn5z92acH8pA3MUFQ.CnxF726gc2ZbLl0UPzg!!/b&amp;bo=UgXVAgAAAAADB6I!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMRTdaYoOjUdZoF8ZT3wUu0qc3RyblKzzdhUewk5keaVaq7fQkVChvMqtH3Au8Gj0X2EudaKPNbfoJAvggItK.Q8!/b&amp;bo=VQXVAgAAAAADJ4U!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第十步：执行命令：</strong></p>
+<p>hugo &ndash;theme=m10c –baseUrl=”https://xdd0102.github.io” –buildDrafts</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMQKkZLvlve8oqtpOIJ.QkcJXdtPr.lZb6BzAbc0epgGYF.5JBHVgyW8khzeP8LcyHZUCr6wl1vvBiJLX0MgQSvw!/b&amp;bo=VQUNAgAAAAADF20!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMY7RXHTbgLJJTxvBD2iQRifXF0JS1hFiLxOnFuAGUCH4PTdRsUj0ZwIr8HY4SQzy66DTIrl1qh44MX36cg5HbcI!/b&amp;bo=UwVkAQAAAAADFwE!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第十一步：将public目录的内容传到github上</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMXQdRMkL9TlwDI..Gd73hCXCwYIR2b0ZTE00ISLUwyiRlQAAxwzgzWIPJYM0JlgRsOWRz8VxPhA1e9ALBlxYGGY!/b&amp;bo=VgXGAgAAAAADF6U!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第十二步：执行命令：</strong></p>
+<p>git remote add origin <a href="https://github.com/xdd0102/xdd0102.github.io.git">https://github.com/xdd0102/xdd0102.github.io.git</a></p>
+<p>将本地关联到github上</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMe9akVs0*N01Shbgw5gfEbqz5*g2n7we5LekeAjBBYXh6.U3yAq6cuIF3RvdT5xLDRRffwXT7Xk22nlXekBvCYk!/b&amp;bo=VQXYAQAAAAADF7s!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第十三步：推送到github  的 master上</strong></p>
+<p>命令：git push –u origin master</p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMVCAi4UVvXJ849xa.zlqcabaQRRz0etFhgyyux2V1*OdjTw4BTMXrsWtWBP5UE.HluQsKjetkcYM5r4UFSTG*VI!/b&amp;bo=VgWEAgAAAAADF.c!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMfW*WPWKvAVWnpy1KfMA*3V9sElKr.C2VurELNrJviNcVvdOylrFgHMqxGS3KNYDveXtmGCclRnq4vMvTJfzdu4!/b&amp;bo=VAQrAQAAAAADF0g!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3m5oot/LjNfElrpEt6hXz54k3bCMewmMmQ4TCjDwRqqB2JiPbUUXsuFe*s*M0ZNGALFpPWI4bvTmBEjsA86A9KQ5TEWKsFobZ6HLuKwoAAbesfjUew!/b&amp;bo=UQXOAgAAAAADF6o!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>温馨提示：进行编辑文章 或 添加新的文章的 执行步骤</strong></p>
+<p>1、hugo new add/aa.md  （添加新文章）</p>
+<p>2、hugo server -t m10c –buildDrafts</p>
+<p>3、hugo &ndash;theme=m10c &ndash;baseUrl=&quot;https://xdd0102.github.io&rdquo; &ndash;buildDrafts</p>
+<p>4、git add .</p>
+<p>5、git commit -m &ldquo;editInfo&rdquo;</p>
+<p>6、git push</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

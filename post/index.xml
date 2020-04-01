@@ -6,17 +6,17 @@
     <description>Recent content in Posts on CodeSpring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 31 Mar 2020 17:50:12 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 16:20:53 +0800</lastBuildDate>
     
 	<atom:link href="https://xdd0102.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>MySql重置密码</title>
-      <link>https://xdd0102.github.io/post/001_mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</link>
-      <pubDate>Tue, 31 Mar 2020 17:50:12 +0800</pubDate>
+      <title>001_mySQL_密码重置</title>
+      <link>https://xdd0102.github.io/post/001_mysql_%E5%AF%86%E7%A0%81%E9%87%8D%E7%BD%AE/</link>
+      <pubDate>Wed, 01 Apr 2020 16:20:53 +0800</pubDate>
       
-      <guid>https://xdd0102.github.io/post/001_mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</guid>
+      <guid>https://xdd0102.github.io/post/001_mysql_%E5%AF%86%E7%A0%81%E9%87%8D%E7%BD%AE/</guid>
       <description>MySQL数据库忘记密码如何重新设置？ 前言 当我们忘记了MySQL数据库密码后，该如何重新进行设置？
 操作步骤 步骤1：cmd打开命名窗口
 步骤2：关闭正在运行的MySQL服务(命令：net stop mysql)（如果：此时MySQL正在运行）

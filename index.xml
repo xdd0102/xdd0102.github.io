@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>002_MySql重置密码</title>
-      <link>https://xdd0102.github.io/post/mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</link>
+      <title>MySql重置密码</title>
+      <link>https://xdd0102.github.io/post/001_mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</link>
       <pubDate>Tue, 31 Mar 2020 17:50:12 +0800</pubDate>
       
-      <guid>https://xdd0102.github.io/post/mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</guid>
+      <guid>https://xdd0102.github.io/post/001_mysql%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</guid>
       <description>MySQL数据库忘记密码如何重新设置？ 前言 当我们忘记了MySQL数据库密码后，该如何重新进行设置？
 操作步骤 步骤1：cmd打开命名窗口
 步骤2：关闭正在运行的MySQL服务(命令：net stop mysql)（如果：此时MySQL正在运行）
@@ -30,26 +30,6 @@
 步骤10：之后我们可以修改用户密码(update user set password = password(&amp;lsquo;123456&amp;rsquo;) where user=&#39;root&amp;rsquo; and host=&#39;localhost&amp;rsquo;;)
 步骤11:重启mysql，然后用新的密码登录
 以上步骤，仅供参考。</description>
-    </item>
-    
-    <item>
-      <title>001_Spring Boot实战合集</title>
-      <link>https://xdd0102.github.io/post/blog/</link>
-      <pubDate>Mon, 23 Mar 2020 15:27:49 +0800</pubDate>
-      
-      <guid>https://xdd0102.github.io/post/blog/</guid>
-      <description>本项目为 《Spring Boot实战合集》的系列文章，代码已开源，并持续保持更新。如果您觉得该项目对您有用，欢迎点击右上方的 Star按钮支持一波！！
- 个人博客：https://www.codesheep.cn GitHub：https://github.com/hansonwang99  另外所有内容都在我的个人微信公众号 CodeSheep 最先推出，大家可以关注一下，可 长按 或 扫描 下面的 小心心 来获取更多 务实、能看懂、可复现的 原创文。除此之外 提问/进群交流 也可以扫码进行！！！
-  
-  数据库/缓存相关   Guava Cache本地缓存在 Spring Boot应用中的实践
-  EVCache缓存在 Spring Boot中的实战
-  Spring Boot应用缓存实践之：Ehcache加持
-  Spring Boot集成 MyBatis和 SQL Server实践
-  Elasticsearch搜索引擎在Spring Boot中的实践
-  自制一个 elasticsearch-spring-boot-starter
-  Spring Boot项目利用MyBatis Generator进行数据层代码自动生成
-  Mybatis-Plus 真好用（乡村爱情加持）
-   日志相关  Spring Boot日志框架实践   应用监控相关   利用神器 BTrace 追踪线上 Spring Boot应用运行时信息</description>
     </item>
     
   </channel>

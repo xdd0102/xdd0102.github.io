@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <title>003_虚拟机创建_Xshell连接 // CodeSpring</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.68.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="gdh" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://xdd0102.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="003_虚拟机创建_Xshell连接"/>
+<meta name="twitter:description" content="####说明：我使用的是CentOS
+第一步：利用Vmware workstation虚拟机创建虚拟机
+第二步：查看虚拟机IP地址（命令：ifconfig）
+第三步：查看sshd服务状态是否开启（命令：service sshd status）
+第四步：开启sshd服务（命令：service sshd start）
+第五步：关闭防火墙（命令：service iptables stop）
+第六步：检查本地ping虚拟机是否成功
+第七步：检查虚拟机ping本地是否成功
+第八步：利用Xshell连接虚拟机"/>
+
+    <meta property="og:title" content="003_虚拟机创建_Xshell连接" />
+<meta property="og:description" content="####说明：我使用的是CentOS
+第一步：利用Vmware workstation虚拟机创建虚拟机
+第二步：查看虚拟机IP地址（命令：ifconfig）
+第三步：查看sshd服务状态是否开启（命令：service sshd status）
+第四步：开启sshd服务（命令：service sshd start）
+第五步：关闭防火墙（命令：service iptables stop）
+第六步：检查本地ping虚拟机是否成功
+第七步：检查虚拟机ping本地是否成功
+第八步：利用Xshell连接虚拟机" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xdd0102.github.io/post/003_%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%88%9B%E5%BB%BA_xshell%E8%BF%9E%E6%8E%A5/" />
+<meta property="article:published_time" content="2020-04-04T17:56:05+08:00" />
+<meta property="article:modified_time" content="2020-04-04T17:56:05+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://xdd0102.github.io"><img class="app-header-avatar" src="/avatar.jpg" alt="gdh" /></a>
+      <h1>CodeSpring</h1>
+      <p>believe yourself</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://xdd0102.github.io" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">003_虚拟机创建_Xshell连接</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 4, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <p>####说明：我使用的是CentOS</p>
+<p><strong>第一步：利用Vmware workstation虚拟机创建虚拟机</strong></p>
+<p><strong>第二步：查看虚拟机IP地址（命令：ifconfig）</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/OmVq1gFIObiZCCY30a7VN4SS2D5nV*THHOkdkw4R2nr2bryzWjn4Uq3pE9u7.205UQY.1SOpALlurbs.ttYxeg!!/b&amp;bo=.gPYAQAAAAADBwI!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第三步：查看sshd服务状态是否开启（命令：service sshd status）</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/LjNfElrpEt6hXz54k3bCMRKD2ijAUXr*pSztHfmbJueYns1jQp0HPcNl8w8KqummbJ4KCJrHWEwAjssF7AZMx1CF7KBmxDnOfKDJeV2pB28!/b&amp;bo=*gM2AQAAAAADF*g!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第四步：开启sshd服务（命令：service sshd start）</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/LjNfElrpEt6hXz54k3bCMcZVZabTLdyXlv5iORuLS0H.6HaDa0y7P93mO2pwjjsI7geB0kpNEsWLPpeQQE9iPtXJpDb7YEL0D2YOnEC2dMY!/b&amp;bo=*gNQAQAAAAADF54!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第五步：关闭防火墙（命令：service iptables stop）</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/LjNfElrpEt6hXz54k3bCMWTRxyFqzspn.EKdrahS4yplYKf5KK1NzMoSd.empxIlCfL*ofrO4f.lp1D9HAODjOgSuNWR8pDnEI4UI5sw5hU!/b&amp;bo=*gNWAQAAAAADF5g!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第六步：检查本地ping虚拟机是否成功</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/LjNfElrpEt6hXz54k3bCMfstTabi*MUTdnvduM5sSmNMfxeDQGm*fArlF1cLWD8UXLnWKCnBEVHaNWT4i2utf9k1BZIXWjUSbTxY*mcN*mc!/b&amp;bo=2QJUAQAAAAADF7w!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第七步：检查虚拟机ping本地是否成功</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/LjNfElrpEt6hXz54k3bCMRsI.Ag9kpAkBLTQRPAQ1L3UvZtz0p9TZ7nilB9li2XxQH*vokDwJ.AZYPtJ.amF4GQrLhBg6Bi3cYJUQVjaWwk!/b&amp;bo=*wNdAQAAAAADF5I!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><strong>第八步：利用Xshell连接虚拟机</strong></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/LjNfElrpEt6hXz54k3bCMce2J8lyLoPCEc8806YxurZYCLfEETpKvPVV.YgJB*AZxiVnTw1lKZSCRI.6KvRZuIL.yhsT3HUvccxteWnfAoc!/b&amp;bo=qAJ6AQAAAAADF.M!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+<p><img src="http://m.qpic.cn/psc?/V13rtMFD3hpHS8/LjNfElrpEt6hXz54k3bCMabBe9Edjpxu3HwZ6za4.4uDLU4PcqAC4YSU.PllxpuirsmAdTQkY*RW.7QAY65ok2IJFGv*3EPiGsGw*KkoJ20!/b&amp;bo=5wN6AQAAAAADF60!&amp;rf=viewer_4&amp;t=5" alt="codeSpring"></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

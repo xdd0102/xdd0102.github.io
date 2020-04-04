@@ -6,10 +6,27 @@
     <description>Recent content on CodeSpring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Apr 2020 16:29:14 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 17:56:05 +0800</lastBuildDate>
     
 	<atom:link href="https://xdd0102.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>003_虚拟机创建_Xshell连接</title>
+      <link>https://xdd0102.github.io/post/003_%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%88%9B%E5%BB%BA_xshell%E8%BF%9E%E6%8E%A5/</link>
+      <pubDate>Sat, 04 Apr 2020 17:56:05 +0800</pubDate>
+      
+      <guid>https://xdd0102.github.io/post/003_%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%88%9B%E5%BB%BA_xshell%E8%BF%9E%E6%8E%A5/</guid>
+      <description>####说明：我使用的是CentOS
+第一步：利用Vmware workstation虚拟机创建虚拟机
+第二步：查看虚拟机IP地址（命令：ifconfig）
+第三步：查看sshd服务状态是否开启（命令：service sshd status）
+第四步：开启sshd服务（命令：service sshd start）
+第五步：关闭防火墙（命令：service iptables stop）
+第六步：检查本地ping虚拟机是否成功
+第七步：检查虚拟机ping本地是否成功
+第八步：利用Xshell连接虚拟机</description>
+    </item>
     
     <item>
       <title>002_个人博客搭建</title>
